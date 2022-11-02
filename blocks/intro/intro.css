@@ -1,0 +1,9 @@
+.intro {
+    width: 690px;
+    height: 429px;
+    margin: 92px auto 92px auto;
+    padding-right: 294px;
+    /*для паддинга 442-248*/
+    display: flex;
+    flex-direction: column;
+}

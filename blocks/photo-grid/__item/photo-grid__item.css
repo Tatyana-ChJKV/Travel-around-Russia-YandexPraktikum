@@ -1,0 +1,9 @@
+.photo-grid__item {
+    height: 213px;
+}
+
+@media (min-width: 1024px) {
+    .photo-grid__item {
+        height: 225px;
+    }
+}

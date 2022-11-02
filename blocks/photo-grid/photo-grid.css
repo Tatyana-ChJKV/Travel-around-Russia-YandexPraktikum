@@ -1,0 +1,20 @@
+.photo-grid {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    width: 1184px;
+    height: 671px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 284px);
+    gap: 16px;
+}
+
+@media (min-width: 1024px) {
+    .photo-grid {
+        width: 928px;
+        height: 942px;
+        grid-template-columns: repeat(3, 300px);
+        gap: 14px;
+    }
+}

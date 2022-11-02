@@ -1,0 +1,14 @@
+.lead__caption {
+    /*увеличена ширина блока со 158 т.к.текст не вмещался, на 160 начинает вмещаться,
+    либо нужно уменьшить шрифт,
+    либо убрать letter-spacing*/
+    width: 160px;
+    height: 14px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0;
+    align-self: flex-start;
+}
