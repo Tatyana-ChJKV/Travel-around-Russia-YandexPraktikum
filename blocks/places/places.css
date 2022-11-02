@@ -3,3 +3,10 @@
     width: 984px;
     height: 3392px;
 }
+
+@media (min-width: 1024px) {
+    .places {
+        width: 928px;
+        height: 3292px;
+    }
+}

@@ -9,3 +9,9 @@
 .place:last-child {
     padding-bottom: 92px;
 }
+
+@media (min-width: 1024px) {
+    .place {
+        width: 928px;
+    }
+}

@@ -5,3 +5,9 @@
     padding-bottom: 48px;
     padding-left: 40px;
 }
+
+@media (min-width: 1024px) {
+    .place__website {
+        padding-left: 32px;
+    }
+}
