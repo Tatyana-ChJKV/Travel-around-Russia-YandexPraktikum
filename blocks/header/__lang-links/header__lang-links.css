@@ -4,3 +4,9 @@
     column-gap: 18px;
     font-size: 24px;
 }
+
+/*@media (min-width: 320px) {*/
+/*    .header__lang-links {*/
+/*        font-size: 18px;*/
+/*    }*/
+/*}*/

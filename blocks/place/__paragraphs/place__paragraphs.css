@@ -7,3 +7,9 @@
         padding-left: 32px;
     }
 }
+
+@media (min-width: 768px) {
+    .place__paragraphs {
+        padding-left: 28px;
+    }
+}

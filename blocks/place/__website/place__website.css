@@ -11,3 +11,9 @@
         padding-left: 32px;
     }
 }
+
+@media (min-width: 768px) {
+    .place__website {
+        padding-left: 28px;
+    }
+}

@@ -1,9 +1,22 @@
 .footer {
-    width: 928px;
+    width: 1184px;
     height: 18px;
     display: flex;
     margin: 0 auto;
     padding-top: 92px;
     padding-bottom: 24px;
     justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        width: 928px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        width: 720px;
+        padding-top: 88px;
+    }
 }

@@ -10,3 +10,10 @@
         height: 640px;
     }
 }
+
+@media (min-width: 768px) {
+    .cover {
+        width: 768px;
+        height: 480px;
+    }
+}

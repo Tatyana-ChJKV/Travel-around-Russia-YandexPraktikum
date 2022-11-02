@@ -13,3 +13,9 @@
         margin: 195px 232px 293px 232px;
     }
 }
+
+@media (min-width: 768px) {
+    .cover__overlay {
+        margin: 115px 104px 213px 104px;
+    }
+}

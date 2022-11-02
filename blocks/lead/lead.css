@@ -14,3 +14,10 @@
         height: 962px;
     }
 }
+
+@media (min-width: 768px) {
+    .lead {
+        width: 768px;
+        height: 862px;
+    }
+}

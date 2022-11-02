@@ -15,3 +15,14 @@
         width: 928px;
     }
 }
+
+@media (min-width: 768px) {
+    .place {
+        width: 720px;
+        padding-bottom: 73px;
+    }
+
+    .place:last-child {
+        padding-bottom: 90px;
+    }
+}

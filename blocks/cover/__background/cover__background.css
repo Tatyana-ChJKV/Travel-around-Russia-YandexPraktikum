@@ -15,3 +15,11 @@
     }
 }
 
+@media (min-width: 768px) {
+    .cover__background {
+        width: 768px;
+        height: 480px;
+    }
+}
+
+

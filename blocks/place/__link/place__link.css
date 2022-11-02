@@ -7,3 +7,15 @@
     color: white;
     text-decoration-line: underline;
 }
+
+@media (min-width: 768px) {
+    .place__link {
+        width: 352px;
+    }
+}
+
+@media (min-width: 768px) {
+    .place__link {
+        width: 352px;
+    }
+}

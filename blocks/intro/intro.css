@@ -13,3 +13,11 @@
         padding-right: 238px;
     }
 }
+
+@media (min-width: 768px) {
+    .intro {
+        width: 720px;
+        padding: 0;
+        margin: 88px auto 88px auto;
+    }
+}
