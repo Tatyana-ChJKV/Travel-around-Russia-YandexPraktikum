@@ -13,3 +13,6 @@
 * медиазапросы
 * построение сеток
 * позиционирование
+
+Ссылка на прект:
+https://tatyana-chjkv.github.io/russian-travel-bootcamp/
