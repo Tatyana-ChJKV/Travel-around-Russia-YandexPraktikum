@@ -4,16 +4,24 @@
     height: 3392px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .places {
         width: 928px;
         height: 3292px;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .places {
         width: 720px;
         height: 2808px;
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        width: 320px;
+        height: 5250px;
+        margin: 64px auto 66px auto;
     }
 }

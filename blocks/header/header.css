@@ -7,22 +7,23 @@
     margin: 0 auto;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .header {
         width: 928px;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .header {
         padding: 28px 24px 56px 24px;
         width: 720px;
     }
 }
 
-/*@media (min-width: 320px) {*/
-/*    .header {*/
-/*        width: 288px;*/
-/*        height: 42px;*/
-/*    }*/
-/*}*/
+@media (max-width: 320px) {
+    .header {
+        width: 288px;
+        height: 42px;
+        padding: 16px 16px 48px 16px;
+    }
+}

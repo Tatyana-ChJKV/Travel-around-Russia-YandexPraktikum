@@ -7,3 +7,13 @@
     margin: 0;
     padding-bottom: 32px;
 }
+
+@media (max-width: 320px) {
+    .cover__title {
+        width: 288px;
+        height: 70px;
+        font-size: 32px;
+        line-height: 35px;
+        padding-bottom: 16px;
+    }
+}

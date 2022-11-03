@@ -1,6 +1,5 @@
 .place {
     width: 984px;
-    /*height: 660px;*/
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 80px;
@@ -10,13 +9,13 @@
     padding-bottom: 92px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .place {
         width: 928px;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .place {
         width: 720px;
         padding-bottom: 73px;
@@ -24,5 +23,39 @@
 
     .place:last-child {
         padding-bottom: 90px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place {
+        width: 320px;
+        height: 1042px;
+        padding-bottom: 50px;
+        display: block;
+    }
+
+    .place:first-child {
+        height: 1042px;
+        padding-bottom: 66px;
+    }
+
+    .place:nth-child(2) {
+        height: 1016px;
+        padding-bottom: 66px;
+    }
+
+    .place:nth-child(3) {
+        height: 990px;
+        padding-bottom: 66px;
+    }
+
+    .place:nth-child(4) {
+        height: 964px;
+        padding-bottom: 66px;
+    }
+
+    .place:last-child {
+        height: 965px;
+        padding-bottom: 66px;
     }
 }

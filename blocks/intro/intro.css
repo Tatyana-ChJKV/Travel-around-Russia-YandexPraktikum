@@ -8,16 +8,25 @@
     flex-direction: column;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .intro {
         padding-right: 238px;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .intro {
         width: 720px;
         padding: 0;
         margin: 88px auto 88px auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro {
+        width: 288px;
+        height: 754px;
+        padding: 0;
+        margin: 64px auto 64px auto;
     }
 }

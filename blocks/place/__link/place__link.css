@@ -8,14 +8,14 @@
     text-decoration-line: underline;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .place__link {
         width: 352px;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 320px) {
     .place__link {
-        width: 352px;
+        width: 288px;
     }
 }

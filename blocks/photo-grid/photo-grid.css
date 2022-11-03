@@ -10,7 +10,7 @@
     gap: 16px;
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .photo-grid {
         width: 928px;
         height: 942px;
@@ -19,11 +19,19 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .photo-grid {
         width: 720px;
         height: 1664px;
         grid-template-columns: repeat(2, 352px);
-        gap: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photo-grid {
+        width: 288px;
+        height: 2724px;
+        grid-template-columns: repeat(1, 288px);
+        row-gap: 8px;
     }
 }
