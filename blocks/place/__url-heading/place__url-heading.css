@@ -1,5 +1,5 @@
 .place__url-heading {
-    width: 456px;
+    max-width: 456px;
     height: 12px;
     font-weight: 400;
     font-size: 12px;
@@ -7,15 +7,15 @@
     letter-spacing: 0.2em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .place__url-heading {
-        width: 352px;
+        max-width: 352px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .place__url-heading {
-        width: 288px;
+        max-width: 288px;
         margin: 0 0 12px 0;
     }
 }

@@ -1,28 +1,32 @@
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     height: 740px;
     margin: 0 auto;
+    /*transition: opacity linear;*/
+    opacity: 0.3;
 }
 
-.cover:hover {
+.cover:hover::after {
+    background-color: #2A2C2F;
+    position: absolute;
     opacity: 0.8;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .cover {
         width: 1024px;
         height: 640px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .cover {
         width: 768px;
         height: 480px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .cover {
         width: 320px;
         height: 200px;

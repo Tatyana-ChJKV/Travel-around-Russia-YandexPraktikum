@@ -1,30 +1,7 @@
 .lead {
-    width: 984px;
-    height: 1005px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 1280px;
-}
-
-@media (max-width: 1024px) {
-    .lead {
-        width: 928px;
-        height: 962px;
-    }
-}
-
-@media (max-width: 768px) {
-    .lead {
-        width: 768px;
-        height: 862px;
-    }
-}
-
-@media (max-width: 320px) {
-    .lead {
-        width: 320px;
-        height: 406px;
-    }
 }

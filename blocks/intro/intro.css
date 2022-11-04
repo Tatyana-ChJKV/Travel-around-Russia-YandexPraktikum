@@ -1,32 +1,31 @@
 .intro {
-    width: 690px;
-    height: 429px;
-    margin: 92px auto 92px auto;
-    padding-right: 294px;
-    /*для паддинга 984-690*/
+    max-width: 690px;
+    margin: 92px 0;
     display: flex;
     flex-direction: column;
+    /*отталкиваемся от картинки*/
+    padding-left: calc((100% - 984px) / 2);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 985px) {
     .intro {
-        padding-right: 238px;
+        max-width: 720px;
+        padding-left: calc((100% - 768px) / 2);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .intro {
-        width: 720px;
-        padding: 0;
-        margin: 88px auto 88px auto;
+        max-width: 450px;
+        padding-left: calc((100% - 511px) / 2);
+        margin: 88px 24px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 511px) {
     .intro {
-        width: 288px;
-        height: 754px;
-        padding: 0;
-        margin: 64px auto 64px auto;
+        max-width: 288px;
+        padding-left: calc((100% - 320px) / 2);
+        margin: 64px 16px;
     }
 }
