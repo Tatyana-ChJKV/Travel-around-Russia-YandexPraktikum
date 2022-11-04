@@ -13,6 +13,23 @@
     align-items: center;
     color: white;
     text-decoration: none;
+    margin: 0 auto;
+}
+
+.cover__background::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: 0;
+    content: "";
+}
+
+.cover__background:hover::before {
+    opacity: 0.8;
 }
 
 @media (max-width: 1279px) {

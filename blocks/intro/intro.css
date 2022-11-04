@@ -7,6 +7,12 @@
     padding-left: calc((100% - 984px) / 2);
 }
 
+@media (max-width: 1024px) {
+    .intro {
+        padding-left: calc((100% - 928px) / 2);
+    }
+}
+
 @media (max-width: 985px) {
     .intro {
         max-width: 720px;
@@ -17,7 +23,7 @@
 @media (max-width: 767px) {
     .intro {
         max-width: 450px;
-        padding-left: calc((100% - 511px) / 2);
+        padding-left: calc((100% - 511px) / 2 + 16px);
         margin: 88px 24px;
     }
 }
@@ -25,7 +31,7 @@
 @media (max-width: 511px) {
     .intro {
         max-width: 288px;
-        padding-left: calc((100% - 320px) / 2);
+        padding-left: calc((100% - 320px) / 2 + 16px);
         margin: 64px 16px;
     }
 }

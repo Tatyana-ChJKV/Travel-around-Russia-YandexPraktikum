@@ -1,27 +1,3 @@
 .photo-grid__item {
-    height: 213px;
-}
-
-@media (max-width: 1023px) {
-    .photo-grid__item {
-        height: 225px;
-    }
-}
-
-@media (max-width: 767px) {
-    .photo-grid__item {
-        height: 264px;
-    }
-}
-
-@media (max-width: 500px) {
-    .photo-grid__item {
-        height: 220px;
-    }
-}
-
-@media (max-width: 320px) {
-    .photo-grid__item {
-        height: 216px;
-    }
+    max-width: 100%;
 }
