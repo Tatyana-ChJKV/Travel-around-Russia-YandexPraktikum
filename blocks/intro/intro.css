@@ -13,10 +13,10 @@
     }
 }
 
-@media (max-width: 985px) {
+@media (max-width: 928px) {
     .intro {
-        max-width: 720px;
-        padding-left: calc((100% - 768px) / 2);
+        width: 720px;
+        padding-left: calc((100% - 768px) / 2 + 24px);
     }
 }
 
@@ -24,7 +24,7 @@
     .intro {
         max-width: 450px;
         padding-left: calc((100% - 511px) / 2 + 16px);
-        margin: 88px 24px;
+        margin: 88px 0;
     }
 }
 
@@ -32,6 +32,6 @@
     .intro {
         max-width: 288px;
         padding-left: calc((100% - 320px) / 2 + 16px);
-        margin: 64px 16px;
+        margin: 64px 0;
     }
 }

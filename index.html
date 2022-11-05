@@ -14,22 +14,27 @@
 
   <header class="header">
     <div class="header__logo"></div>
-    <div class="header__lang-links">
-      <a href="#" class="header__lang-link header__lang-link_active link-opacity">Ru</a>
-      <a href="#" class="header__lang-link link-opacity">En</a>
-    </div>
+    <ul class="header__lang-links">
+      <li><a href="#" class="header__lang-link header__lang-link_active link-opacity">Ru</a></li>
+      <li> <a href="#" class="header__lang-link link-opacity">En</a></li>
+    </ul>
   </header>
 
   <main class="content">
 
     <section class="lead">
+
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image"></div>
-      <p class="lead__caption">Ваша полка — верхняя</p>
+      <figure class="lead__figure">
+      <img src="images/lead-polka.jpg" class="lead__image" alt="Фото спящей девушки на нижней полке в вагоне поезда с изображением карты нескольких городов России поверх фото">
+      <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+      </figure>
+
     </section>
 
     <section class="intro">
+
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
           провести отпуск в родной стране.
@@ -40,15 +45,18 @@
           проехала 20 тысяч километров по родной стране.
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__list intro__list_element">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_element">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_element">16</span></li>
-          <li>Природных заповедников <span class="intro__list intro__list_element">105</span></li>
-          <li>Аэропортов <span class="intro__list intro__list_element">241</span></li>
+          <li>Часовых поясов <span class="intro__figures">11</span></li>
+          <li>Объектов природного наследия ЮНЕСКО <span class="intro__figures">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__figures">16</span></li>
+          <li>Природных заповедников <span class="intro__figures">105</span></li>
+          <li>Аэропортов <span class="intro__figures">241</span></li>
         </ul>
+
     </section>
 
-      <ul class="photo-grid">
+    <section class="photo-grid">
+
+      <ul class="photo-grid__items">
         <li><img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Фото вида из окна поезда."></li>
         <li><img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Вид облаков, накрывающих снежные горы."></li>
         <li><img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Стога сена на поле в туманное утро."></li>
@@ -62,6 +70,8 @@
         <li><img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Обрыв скалы."></li>
         <li><img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Горная местность в тумане."></li>
       </ul>
+
+    </section>
 
     <section class="places">
 
@@ -167,16 +177,14 @@
   </main>
 
   <footer class="footer">
-    <nav class="footer__links">
-      <a href="https://yandex.ru/maps" target="_blank" class="footer__link link-opacity">Карты</a>
-      <a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link-opacity">Погода</a>
-      <a href="https://rasp.yandex.ru" target="_blank" class="footer__link link-opacity">Расписание</a>
-      <a href="https://calendar.yandex.ru" target="_blank" class="footer__link link-opacity">Календарь</a>
-      <a href="https://travel.yandex.ru" target="_blank" class="footer__link link-opacity">Путешествия</a>
-    </nav>
-    <div class="footer__copyright">
+    <ul class="footer__links">
+      <li><a href="https://yandex.ru/maps" target="_blank" class="footer__link link-opacity">Карты</a></li>
+      <li><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link link-opacity">Погода</a></li>
+      <li><a href="https://rasp.yandex.ru" target="_blank" class="footer__link link-opacity">Расписание</a></li>
+      <li><a href="https://calendar.yandex.ru" target="_blank" class="footer__link link-opacity">Календарь</a></li>
+      <li><a href="https://travel.yandex.ru" target="_blank" class="footer__link link-opacity">Путешествия</a></li>
+    </ul>
       <p class="footer__author">&copy; 2022 Татьяна Чижикова</p>
-    </div>
   </footer>
 
 </div>
