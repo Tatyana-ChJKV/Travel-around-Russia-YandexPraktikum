@@ -15,7 +15,7 @@
 
 @media (max-width: 928px) {
     .intro {
-        width: 720px;
+        max-width: 720px;
         padding-left: calc((100% - 768px) / 2 + 24px);
     }
 }
