@@ -8,11 +8,10 @@
 
 В ходе работы над сайтом был применен ряд технологий:
 
-* работа с макетом
+* HTML, CSS
+* работа с макетом [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=28503%3A0)
 * разработка интерфейса для различных устройств
-* медиазапросы
-* построение сеток
-* позиционирование
+* применение медиазапросов
+* построение сеток с помощью grid
 
-Ссылка на прект:
-https://tatyana-chjkv.github.io/russian-travel-bootcamp/
+<img width="536" alt="Снимок экрана 2023-03-02 в 16 31 25" src="https://user-images.githubusercontent.com/107503153/222974423-4efc12ff-b594-41e8-ba39-bd46cebd1d7f.png">
